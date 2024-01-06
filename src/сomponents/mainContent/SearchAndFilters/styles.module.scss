@@ -1,0 +1,6 @@
+.searchFiltersContainer {
+  display: grid;
+  grid-template-areas: 'search filters';
+  grid-template-columns: 1fr 105px;
+  gap: 1px;
+}

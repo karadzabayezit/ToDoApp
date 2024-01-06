@@ -1,0 +1,20 @@
+.filters_container {
+  display: flex;
+  justify-content: flex-start;
+  grid-area: filters;
+  select{
+    padding: 8px 14px;
+    background-color: rgba(240, 248, 255, 0.96);
+    color: #000;
+    border-radius: 0 0 10px 10px;
+    &:hover{
+      cursor: pointer;
+    }
+    option{
+      &:first-child {
+        color: gray;
+      }
+    }
+  }
+  
+}
